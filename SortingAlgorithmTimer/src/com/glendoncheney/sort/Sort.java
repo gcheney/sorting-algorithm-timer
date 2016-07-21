@@ -50,7 +50,11 @@ public abstract class Sort<T extends Comparable<? super T>> {
 	}
 
 	/**
-	 * Test if the array is sorted
+	 * Test if the array is sorted by comparing every element to its successor.
+	 * The array is considered unsorted if a successor has a greater value than its predecessor.
+	 * If function reaches the end of the loop without finding that the array is unsorted,
+	 * then it must be sorted instead.
+     *
 	 * @param a The array to test
 	 * @return True if the array is sorted, 
 	 * false otherwise
