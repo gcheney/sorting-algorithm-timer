@@ -4,4 +4,4 @@ This project is a command-line application for comparing the speed of popular so
 
 ## Screenshot
 
-![Alt text](http://glendoncheney.com/images/success.png "Sorting Algorithm Timer Screenshot")
+![Alt text](https://glendoncheney.com/images/screenshots/sorting-algorithm-timer/success.png "Sorting Algorithm Timer Screenshot")
